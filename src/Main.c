@@ -46,15 +46,15 @@ void vowels(char frase[], int len) {
 }
 
 void consonant(char frase[], int len) {
-  int consonant = 0;
+  int totalConsonant = 0;
   for (int i = 0; i < len; i++) {
     if ((frase[i] >= 'a' && frase[i] <= 'z') || (frase [i] >= 'A' && frase[i] <= 'Z')) {
       if (frase[i] != 'a' && frase[i] != 'e' && frase[i] != 'i' && frase[i] != 'o' && frase[i] != 'u' && frase[i] != 'A' && frase[i] != 'E' && frase[i] != 'I' && frase[i] != 'O' && frase[i] != 'U') {
-        consonant++;
+        totalConsonant++;
       }
     }
   }
-  printf("Consonantes totales: %d\n",consonant);
+  printf("Consonantes totales: %d\n",totalConsonant);
 }
 
 void capitalLetters(char frase[], int len) {
