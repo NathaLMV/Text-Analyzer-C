@@ -10,7 +10,9 @@ Este proyecto permite analizar una frase ingresada por el usuario y contar:
 ```
 
 # # Compilar usando Makefile
+```
 make
+```
 
 # Ejecutar el programa
 ```
